@@ -7,7 +7,8 @@ public class Main {
         while (!s.equals("42")) {
             s = scaner.nextLine();
             if (!s.equals("42")) {
-                System.out.println(s);
+                System.out.print(s);
+                System.out.print("\n");
             }
         }
     }
