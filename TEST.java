@@ -9,5 +9,6 @@ public class Main {
             if (!s.equals("42")) {
                 System.out.println(s);
             }
+        }
     }
 }
