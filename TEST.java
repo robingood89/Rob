@@ -6,7 +6,9 @@ public class Main {
         String s = "";
         while (!s.equals("42")) {
             s = scaner.nextLine();
-            if (!s.equals("42")) System.out.println(s);
+            if (!s.equals("42")) {
+                System.out.println(s);
+            }
         }
     }
 }
